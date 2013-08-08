@@ -3,6 +3,8 @@
 
 For single page app routing.
 
+**Try it out on [requirebin](http://requirebin.com/?gist=6188665)!**
+
 ## Usage
 
 Listen for page change events:
