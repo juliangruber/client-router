@@ -1,3 +1,4 @@
+
 # client-router
 
 For single page app routing.
@@ -7,9 +8,11 @@ For single page app routing.
 Listen for page change events:
 
 ```js
-var router = require('client-router');
+var Router = require('client-router');
+var route = new Router();
+var go = route.go;
 
-router.on('route', function (match, href) {
+route(function (match, href) {
   if (match('/')) {
     // home page
   }
@@ -19,13 +22,8 @@ router.on('route', function (match, href) {
     // post page
   }
 });
-```
 
-Go to a page:
-
-```js
-var go = require('client-router').go;
-
+// go to a page
 go('/posts/13');
 ```
 
@@ -41,7 +39,7 @@ Then bundle for the browser using [browserify](https://github.com/substack/node-
 
 ## License
 
-Copyright (c) 2013 Julian Gruber &lt;julian@wayla.com&gt;
+Copyright (c) 2013 Julian Gruber &lt;julian@juliangruber.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
