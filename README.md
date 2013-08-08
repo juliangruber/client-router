@@ -37,6 +37,12 @@ $ npm install client-router
 
 Then bundle for the browser using [browserify](https://github.com/substack/node-browserify).
 
+## Contributors
+
+[@juliangruber](https://github.com/juliangruber)
+
+[@hij1nx](https://github.com/hij1nx)
+
 ## License
 
 Copyright (c) 2013 Julian Gruber &lt;julian@juliangruber.com&gt;
