@@ -1,18 +1,35 @@
 {
   "name": "client-router",
+  "description": "Single page app router.",
   "version": "0.0.0",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/client-router.git"
+  },
+  "homepage": "https://github.com/juliangruber/client-router",
   "main": "index.js",
   "scripts": {
     "start": "beefy example.js"
   },
-  "author": "",
-  "license": "BSD",
   "dependencies": {
-    "paramify": "0.0.2",
-    "single-page": "~1.0.0"
+    "single-page": "~1.0.0",
+    "paramify": "0.0.2"
   },
   "devDependencies": {
     "beefy": "~0.4.1"
-  }
+  },
+  "keywords": [
+    "single",
+    "page",
+    "app",
+    "routing",
+    "push",
+    "state"
+  ],
+  "author": {
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com"
+  },
+  "license": "MIT"
 }
